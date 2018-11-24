@@ -12,4 +12,4 @@ If you are having issues with ln command and are getting back an _'Operation not
 - In "Security & Privacy", click on the padlock icon in the bottom left corner (see screenshot below)
 - Once you've allowed system to make changes, click on the "+" button and add iTerm (and optionally terminal)
 
-[[https://github.com/baneDD/iterm-zsh-config/blob/master/images/security-and-privacy-tab.png]]
+![Security & Privacy Panel Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/security-and-privacy-tab.png)
