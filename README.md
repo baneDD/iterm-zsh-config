@@ -1,3 +1,7 @@
+# My iTerm2 and Zsh Setup on MacOS Mojave
+
+Copy the `.zshrc` file from this repository to your home repository `~`
+
 On MacOS Mojave, to get the wireless monitoring to work, we need to add /usr/local/bin folder and then link the airport folder to it:
 
 ```
