@@ -1,5 +1,7 @@
 # My iTerm2 and Zsh Setup on MacOS Mojave
 
+![Beautiful Command Prompt Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/good-prompt.png)
+
 If you're a software developer like me, you find yourself spending a lot of time in the terminal using command-line tools. I do most of my development on a Mac and what follows is a collection of tools and configurations I've discovered over time that make my terminal life a little more pleasant in MacOS Mojave. Let's face it, the default terminal Apple ships with MacOS leaves a lot to be desired in terms of configuration flexibility, functionality and visual appeal.
 
 Install [Homebrew](https://brew.sh/) on your Mac if you don't already have it installed:
@@ -57,3 +59,21 @@ If you are having issues with ln command and are getting back an _'Operation not
 - Once you've allowed system to make changes, click on the "+" button and add iTerm (and optionally terminal)
 
 ![Security & Privacy Panel Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/security-and-privacy-tab.png)
+
+### KNOWN ISSUES
+
+- Pointer colors are off in iTerm2 (see screenshot below)
+
+![Beautiful Command Prompt Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/bad-prompt.png)
+
+There are a couple of settings you need to change in iTerm2 to fix the colour issues. Head on over to iTerm2 -> Preferences -> Profiles and select the profile you want to update. In the colors tab, you will need to set "Minimum Contrast" slider to zero:
+
+![Minimum Contrast Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/minimum-contrast.png)
+
+And under the Window tab, ensure your transparency is set to "Opaque":
+
+![Transparency Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/transparency.png)
+
+That should resolve your issues and your terminal should now look like this: 
+
+![Beautiful Command Prompt Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/good-prompt.png)
