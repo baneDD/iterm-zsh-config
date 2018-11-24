@@ -1,5 +1,7 @@
 # My iTerm2 and Zsh Setup on MacOS Mojave
 
+If you're a software developer like me, you find yourself spending a lot of time in the terminal using command-line tools. I do most of my development on a Mac and what follows is a collection of tools and configurations I've discovered over time that make my terminal life a little more pleasant in MacOS Mojave. Let's face it, the default terminal Apple ships with MacOS leaves a lot to be desired in terms of configuration flexibility, functionality and visual appeal.
+
 Install [Homebrew](https://brew.sh/) on your Mac if you don't already have it installed:
 
 ```
