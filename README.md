@@ -62,9 +62,13 @@ If you are having issues with ln command and are getting back an _'Operation not
 
 ### KNOWN ISSUES
 
-- Pointer colors are off in iTerm2 (see screenshot below)
+Pointer colors are off in iTerm2:
 
-![Beautiful Command Prompt Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/bad-prompt.png)
+![Beautiful Command Prompt Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/bad-prompt.png "Bad Pointer Colors")
+
+It should look like this instead:
+
+![Beautiful Command Prompt Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/good-prompt.png "Good Pointer Colors")
 
 There are a couple of settings you need to change in iTerm2 to fix the colour issues. Head on over to iTerm2 -> Preferences -> Profiles and select the profile you want to update. In the colors tab, you will need to set "Minimum Contrast" slider to zero:
 
@@ -74,6 +78,4 @@ And under the Window tab, ensure your transparency is set to "Opaque":
 
 ![Transparency Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/transparency.png)
 
-That should resolve your issues and your terminal should now look like this: 
-
-![Beautiful Command Prompt Screenshot](https://github.com/baneDD/iterm-zsh-config/raw/master/images/good-prompt.png)
+That should resolve your issues and your terminal should now look correct.
