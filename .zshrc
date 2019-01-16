@@ -15,6 +15,9 @@ alias ls='ls -G'
 # Enables list all when using lsa
 alias lsa='ls -la'
 
+# GIT aliases
+alias gitprune='git branch -vv | grep gone | awk "{print \$1}" | xargs git branch -D'
+
 # Load Nerd Fonts with Powerlevel9k theme for Zsh
 POWERLEVEL9K_MODE='nerdfont-complete'
 source ~/powerlevel9k/powerlevel9k.zsh-theme
