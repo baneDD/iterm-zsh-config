@@ -15,7 +15,7 @@ alias ls='ls -G'
 # Enables list all when using lsa
 alias lsa='ls -la'
 
-# GIT aliases
+# Deletes local GIT branches that have been deleted on remote origin
 alias gitprune='git branch -vv | grep gone | awk "{print \$1}" | xargs git branch -D'
 
 # Load Nerd Fonts with Powerlevel9k theme for Zsh
