@@ -40,6 +40,13 @@ brew install zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh-his
 
 ### NERD FONTS INSTALLATION AND CONFIGURATION
 
+### GIT CONFIGURATION
+
+This script gives you a pair of powerful GIT tools to use in your arsenal: 
+
+- It adds an alias (gitprune) that deletes any local GIT branches that have been deleted on origin. This runs ```git fetch --all -p``` to update from origin before deleting any dangling branches.
+- It enables GIT autocompletions. To install autocompletions use Homebrew: ```brew install bash-completion```
+
 ### POWERLEVEL9K INSTALLATION AND CONFIGURATION
 
 Copy the `.zshrc` file from this repository to your home repository `~`
