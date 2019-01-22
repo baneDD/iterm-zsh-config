@@ -18,6 +18,9 @@ alias lsa='ls -la'
 # Deletes local GIT branches that have been deleted on remote origin
 alias gitprune='git branch -vv | grep gone | awk "{print \$1}" | xargs git branch -D'
 
+# Add GIT autocompletions
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
 # Load Nerd Fonts with Powerlevel9k theme for Zsh
 POWERLEVEL9K_MODE='nerdfont-complete'
 source ~/powerlevel9k/powerlevel9k.zsh-theme
