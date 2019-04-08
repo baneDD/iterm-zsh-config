@@ -18,6 +18,9 @@ alias lsa='ls -la'
 # Deletes local GIT branches that have been deleted on remote origin
 alias gitprune='git fetch --all -p; git branch -vv | grep gone | awk "{print \$1}" | xargs git branch -D'
 
+# Pretty GIT log
+alias gitlog='git log --pretty=oneline --abbrev-commit'
+
 # Add GIT autocompletions
 [[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
 
