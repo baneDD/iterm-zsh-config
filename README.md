@@ -40,6 +40,11 @@ brew install zsh-syntax-highlighting zsh-autosuggestions zsh-completions zsh-his
 
 ### NERD FONTS INSTALLATION AND CONFIGURATION
 
+```
+brew tap homebrew/cask-fonts
+brew install --cask font-hack-nerd-font
+```
+
 ### GIT CONFIGURATION
 
 This script gives you a pair of powerful GIT tools to use in your arsenal: 
